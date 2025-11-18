@@ -1,7 +1,7 @@
 # Zomato Delivery Efficiency Analytics
 End-to-End Data Analytics Project — Python (ETL) + MySQL (Data Warehouse) + Power BI (Dashboard)
 
-![Delivery Timing Trends](./zomato_data/powerbi/delivery_timing_trends.png)
+![Delivery Timing Trends](/zomato_data/powerbi/delivery_timing_trends.png)
 
 This project performs a complete analysis of Zomato’s delivery operations to understand delivery timing patterns, driver performance, geographical influences, and customer experience factors.
 
