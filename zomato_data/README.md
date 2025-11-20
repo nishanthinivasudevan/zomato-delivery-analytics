@@ -21,6 +21,10 @@ Using Zomato's delivery dataset, this project uncovers insights on:
 
 The result is a complete business-ready dashboard that allows stakeholders to drill down into all factors influencing delivery performance.
 
+## Business Problem
+
+The business needed a structured operations analysis framework to monitor delivery performance across multiple factors—such as geography, traffic density, and multi-order behavior—and identify key bottlenecks and improvement areas that directly impact customer experience, delivery efficiency, and operational scalability.
+
 ## Key Objectives
 
 Build a clean data pipeline from raw CSV to structured, analytics-ready tables.
