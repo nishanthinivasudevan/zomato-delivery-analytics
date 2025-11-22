@@ -74,58 +74,12 @@ Power BI
 
 ## Key Business Insights 
 
-Overall delivery time is improving, but customer ratings are declining, indicating deeper operational factors at play.
-This project investigates three major drivers: Geography, Traffic Density, and Multiple Deliveries.
+- Geographical Inefficiencies: Semi-Urban areas show the longest delivery times (~49 min) and lowest ratings (4.50), despite very short distances, indicating systemic performance gaps.
 
-### Geographical Constraints: Semi-Urban Performance Gap
-Semi-Urban regions consistently underperform across all delivery metrics.
+- Traffic Misallocation: High-traffic orders placed near restaurants still face delays due to delivery partners being dispatched from farther away — revealing assignment inefficiencies.
 
-Key Findings:
-- Slowest delivery times: ~49 mins vs 26-min overall average
-- Lowest customer ratings: 4.50 vs 4.63 overall
-- Extremely low order volume: 0.3% of total orders
-- Highest tendency for multiple deliveries, increasing delays
-- Shortest distance (0.57 km), proving distance is not the cause of slow performance
+- Multi-Order Tradeoff: As riders handle more orders, delivery time increases proportionally, but customer ratings drop sharply once there are 2+ additional orders, despite shorter travel distance.
 
-Root Causes:
-- Poor infrastructure slowing rider movement
-- Low demand causing inconsistent or undertrained rider supply
-- Limited brand presence and customer adoption
-
-Recommendations:
-- Strengthen quality control and rider training
-- Increase brand awareness via local partnerships
-- Limit multi-order assignments in Semi-Urban areas
-
-### Traffic Density: Rider Assignment Inefficiency
-Orders placed near restaurants still face high delivery times in traffic-heavy zones.
-
-Insights:
-- Riders are often dispatched from distant areas, delaying pickup
-- High traffic amplifies these delays, even for short-distance orders
-
-Recommendation:
-- Improve the rider–order matching algorithm to prioritize nearest available delivery partners
-
-### Multiple Orders: The Multi-Delivery Threshold
-Handling more orders increases delivery time as expected, but deeper patterns emerge.
-
-Key Findings:
-- Direct increase in delivery time with each additional order
-- Surprisingly, restaurant distance decreases when handling 2+ orders
-- Ratings drop sharply despite shorter distances
-- Volume of 2+ multi-deliveries is significantly low, indicating natural or system-avoided overload
-
-Interpretation:
-- Customers ordering locally for combined deliveries create high workload with low travel distance
-- Even short distances can see delays when rider allocation is inefficient
-
-Conclusion:
-The optimal operational threshold is 1 extra order:
-- Delivery time remains stable
-- Ratings show minimal decline
-- Rider workload stays manageable
-
-Beyond this point, performance and customer satisfaction drop significantly.
+- Operational Sweet Spot: Handling exactly one extra order appears optimal — it keeps delivery time stable and minimizes rating impact, while avoiding the overload risks tied to 2+ orders.
 
 
