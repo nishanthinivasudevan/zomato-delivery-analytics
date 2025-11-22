@@ -46,7 +46,7 @@ Showcase Python, SQL, ETL, and BI skills end-to-end.
 
 ## Methodology
 
-- Raw data ( [zomato_data](https://www.kaggle.com/datasets/saurabhbadole/zomato-delivery-operations-analytics-dataset/data) ) taken exported from kaggle
+- Raw data ( [zomato_data](https://www.kaggle.com/datasets/saurabhbadole/zomato-delivery-operations-analytics-dataset/data) )  exported from kaggle
 - Data cleaning including datatype fixing, imputing missing data, derived columns in python using pandas
 - Dataset uploaded to MySQL server and queries to find insights from the data
 - Power BI dashboard created using the SQL database for visual storytelling and dedicated deepdives to analyse the factors in detail
